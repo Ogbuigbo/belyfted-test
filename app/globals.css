@@ -24,6 +24,7 @@ html, body {
   height: 100%;
   width: 100%;
   color: var(--text-primary);
+  overflow: auto;
 }
 
 body {
@@ -393,6 +394,32 @@ button {
   padding: 12px 16px;
   text-decoration: none;
   transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #303032  !important;
+  background-color: white;
+  color: #002855;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+
+.nav-link.active {
+  color: #303032  !important;
+  background-color: white;
+  color: #002855;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.nav-link.active:hover {
+  color: #303032  !important;
+  background-color: white;
+  color: #002855;
+  border-radius: 4px;
+  margin: 0 8px;
 }
 
 .nav-link.active {

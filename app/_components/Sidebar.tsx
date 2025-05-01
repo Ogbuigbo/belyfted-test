@@ -89,13 +89,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
               <li key={index} className={`nav-item`}  style={{
                 ...item.style
               }}>
-                <a
-                  href={item.path}
+                <p
                   className={`nav-link ${item.active ? 'active' : ''}`}
                 >
                   <span className="nav-icon">{item.icon}</span>
                   <span className="nav-label">{item.label}</span>
-                </a>
+                </p>
               </li>
             ))}
           </ul>
