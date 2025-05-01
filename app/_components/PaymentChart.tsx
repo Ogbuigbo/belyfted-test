@@ -10,14 +10,12 @@ import {
   PieChart,
   Pie,
   Cell,
-  TooltipProps,
 } from 'recharts';
-import UpgradeIcon  from "../assets/icons/upgradeIcon"
 import { BarDataItem, PieDataItem, CustomTooltipProps } from '../types';
 
 
 
-const FinancialDashboard: React.FC = () => {
+const PaymentChart: React.FC = () => {
   const barData: BarDataItem[] = [
     { name: 'Jan', value: 70000 },
     { name: 'Feb', value: 95000 },
@@ -103,8 +101,8 @@ const FinancialDashboard: React.FC = () => {
       <div className="summary-panel">
         <h2 className="summary-title">Transaction Summary</h2>
         
-        <div className="donut-chart-container flex justify-center">
-          <div className="donut-chart relative w-48 h-48">
+        <div className="donut-chart-container">
+          <div className="donut-chart ">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
@@ -154,4 +152,4 @@ const FinancialDashboard: React.FC = () => {
   );
 };
 
-export default FinancialDashboard;
+export default PaymentChart;
