@@ -61,7 +61,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
               <div className="user-name">John Oluwaseyi</div>
               <div className="user-role">Profile</div>
             </div>
-            <div className='hide-on-mobile'>
+            <div className='hide-on-mobile cursor-pointer'>
             <NewDropDownIcon/>
             </div>
             <div className="mobile-user-initials hide-on-desktop">

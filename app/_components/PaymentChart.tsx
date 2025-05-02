@@ -33,8 +33,8 @@ const PaymentChart: React.FC = () => {
 
   // Data for the pie chart
   const pieData: PieDataItem[] = [
-    { name: 'Payout', value: 25, amount: '$5,600', color: '#F39C12' },
     { name: 'Payin', value: 75, amount: '$12,200', color: '#042656' },
+    { name: 'Payout', value: 25, amount: '$5,600', color: '#F39C12' },
   ];
 
 
