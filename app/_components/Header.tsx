@@ -61,7 +61,9 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
               <div className="user-name">John Oluwaseyi</div>
               <div className="user-role">Profile</div>
             </div>
-            <div className='hide-on-mobile'><NewDropDownIcon/></div>
+            <div className='hide-on-mobile'>
+            <NewDropDownIcon/>
+            </div>
             <div className="mobile-user-initials hide-on-desktop">
               JO
               <DropdownIcon className={`dropdown-icon ${isDropdownOpen ? 'rotate-180' : ''}`} />
