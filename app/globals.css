@@ -815,7 +815,7 @@ button {
 .summary-panel {
   flex: 1;
   background: white;
-  padding: 0px;
+  padding: 16px;
   border-radius: 8px;
   border: 1px solid #EEEEEE;
   height: 299px;
