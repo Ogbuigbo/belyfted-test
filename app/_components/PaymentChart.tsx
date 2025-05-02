@@ -70,7 +70,7 @@ const PaymentChart: React.FC = () => {
         
         <div className="bar-chart-container">
           <ResponsiveContainer width="100%" height={220}>
-            <BarChart data={barData} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
+            <BarChart data={barData}  margin={{ top: 5, right: 0, left: -20, bottom: 5 }} >
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
               <XAxis 
                 dataKey="name" 
