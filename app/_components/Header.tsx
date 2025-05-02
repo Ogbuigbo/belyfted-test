@@ -4,6 +4,7 @@ import SettingIcon from "@/app/assets/icons/settingsIcon";
 import Image from 'next/image';
 import DropdownIcon from "@/app/assets/icons/dropdownIcon";
 import { HeaderProps } from '../types';
+import NewDropDownIcon from "../assets/icons/newDropDownIcon";
 
 
 const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
@@ -60,6 +61,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
               <div className="user-name">John Oluwaseyi</div>
               <div className="user-role">Profile</div>
             </div>
+            <div className='hide-on-mobile'><NewDropDownIcon/></div>
             <div className="mobile-user-initials hide-on-desktop">
               JO
               <DropdownIcon className={`dropdown-icon ${isDropdownOpen ? 'rotate-180' : ''}`} />
